@@ -2,7 +2,7 @@
 
 NUM_ARTICLES = 5; // Load 5 most recent
 
-$.getJSON( "DHACC_files/news.json", function( data ) {
+$.getJSON( "jmal0.github.io/DrexelHackathonAndCodingClub/DHACC_files/news.json", function( data ) {
     console.log("pls");
     for(var i = 0; i < NUM_ARTICLES; i++){
         var news_item = "<li class=\"news-item\">" +

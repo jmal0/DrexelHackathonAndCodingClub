@@ -94,7 +94,7 @@ ul.splash_background { padding: 0; }
 	        transform: rotate(1.5deg);
 }
 
-.globalFooter:after { position: absolute; top: 50px; left: -10%; z-index: -1; width: 120%; height: 150%; background: url(images/footer-pattern.png) repeat 0 0; content: ''; }
+.globalFooter:after { position: absolute; top: 50px; left: -10%; z-index: -1; width: 120%; height: 150%; content: ''; }
 
 .globalFooter.globalFooter-home {  }
 
@@ -209,9 +209,9 @@ ul.splash_background { padding: 0; }
 .main-primary .content { position: relative; top: -130px; float: left; width: 643px; padding-left: 45px; margin-bottom: -190px; background: #fff; }
 
 .main-primary .content-head { margin-bottom: 24px; }
-.main-primary .content-head:before { position: absolute; top: -25px; left: 0; width: 100%; height: 25px; background: url(images/content-head.png) no-repeat 0 bottom; content: ''; }
+.main-primary .content-head:before { position: absolute; top: -25px; left: 0; width: 100%; height: 25px; content: ''; }
 
-.main-primary .content-foot:after { position: absolute; bottom: -30px; left: 0; width: 100%; height: 30px; background: url(images/content-foot.png) no-repeat 0 0; content: ''; }
+.main-primary .content-foot:after { position: absolute; bottom: -30px; left: 0; width: 100%; height: 30px; content: ''; }
 
 .main-primary .content-head:before,
 .main-primary .content-foot:after {
@@ -402,7 +402,7 @@ ul.splash_background { padding: 0; }
 .widget-faculty .widget-body:after,
 .widget-faculty:before { position: absolute; top: 0; left: -31px; width: 65%; border-top: 1px solid #e5e5e5; content: ''; }
 .widget-partners:after,
-.widget-faculty:after { position: absolute; top: 0; left: -31px; width: 9px; height: 100%; background: url(images/border-blue-pattern.png) repeat-y 0 0; content: ''; }
+.widget-faculty:after { position: absolute; top: 0; left: -31px; width: 9px; height: 100%; content: ''; }
 
 .widget-faculty .widget-head { margin-bottom: 39px; }
 .widget-faculty .widget-head p { margin-bottom: 4px; }

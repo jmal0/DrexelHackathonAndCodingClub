@@ -2,9 +2,9 @@
 
 NUM_ARTICLES = 5; // Load 5 most recent
 
-$.getJSON( "jmal0.github.io/DrexelHackathonAndCodingClub/DHACC_files/news.json", function( data ) {
+$.getJSON( "http://jmal0.github.io/DrexelHackathonAndCodingClub/DHACC-files/news.json", function( data ) {
     console.log("pls");
-    for(var i = 0; i < NUM_ARTICLES; i++){
+    for(var i = 0; i < data["reports"].length && i < NUM_ARTICLES; i++){
         var news_item = "<li class=\"news-item\">" +
                         "<div class=\"news-content\">" + 
                         "<h4>" + data["reports"][i]["title"] + "</h4>" +
@@ -13,5 +13,6 @@ $.getJSON( "jmal0.github.io/DrexelHackathonAndCodingClub/DHACC_files/news.json",
                         "</div>" + 
                         "</li>";
         document.getElementById("news-list").appendChild(news_item);
+        
     }
 });
